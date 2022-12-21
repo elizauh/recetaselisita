@@ -76,17 +76,27 @@ WSGI_APPLICATION = 'djangoreceitas.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'recetas',
-        'USER': 'postgres',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'NAME': 'mybd',
+        'USER': 'root',
+        'PASSWORD': 'dnR2yogzhqzob1P5YCIGdggeGHG1H56y',
+        'HOST': 'dpg-cehpaq4gqg4e0eerm1pg-a',
     }
 }
-
+'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mybd',
+        'USER': 'root',
+        'PASSWORD': 'dnR2yogzhqzob1P5YCIGdggeGHG1H56y',
+        'HOST': 'dpg-cehpaq4gqg4e0eerm1pg-a.oregon-postgres.render.com',
+        'PORT': '5432',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
