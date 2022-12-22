@@ -27,7 +27,10 @@ SECRET_KEY = '-^f_i#^t%1dz^)lnyb^^x0=amzbkgwsp550f6g_=31dr39ota#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '*',
+    'https://recetaselisita.onrender.com/'
+    ]
 
 
 # Application definition
