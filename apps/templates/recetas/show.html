@@ -27,7 +27,7 @@
             <div class="col-12">
                 <div class="receipe-slider owl-carousel">
                     {% if receta.foto == '' %}
-                        <img src="{% static 'img/bg-img/tomate_banner.jpg' %}">
+                        <img src="{% static './img/bg-img/tomate_banner.jpg' %}">
                     {% else %}
                         <img src="{{ receta.foto.url }}" alt="">
                     {% endif %}
