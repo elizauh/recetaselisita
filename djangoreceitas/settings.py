@@ -29,7 +29,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '*',
-    'https://recetaselisita.onrender.com/'
+    'https://recetaselisita.onrender.com/',
+    'https://recetaselisita.azurewebsites.net/'
     ]
 
 
